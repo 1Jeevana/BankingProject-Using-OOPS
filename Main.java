@@ -1,15 +1,15 @@
-package com.abhay;
+package com.jeevana;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Account abhaysAccount = new Account("121212",0,"Abhay","abhay@xyz.com","1212121");
+        Account jeevanasAccount = new Account("121212",0,"jeevana","jeevana@xyz.com","1212121");
 
-        abhaysAccount.DepositMoney(50);
-        abhaysAccount.DepositMoney(150);
+        jeevanasAccount.DepositMoney(50);
+        jeevanasAccount.DepositMoney(150);
 
-        abhaysAccount.WithDrawMoney(100);
+        jeevanasAccount.WithDrawMoney(100);
     
     }
 }
